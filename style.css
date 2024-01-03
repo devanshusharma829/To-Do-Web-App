@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Inter:wght@200;300;400;500&family=Montserrat:ital,wght@1,800&family=Roboto&display=swap");
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: #c9ffbf;
+  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
+  background: linear-gradient(to right, #ffafbd, #c9ffbf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 40px;
+}
+
+.box {
+  width: 700px;
+  min-height: 500px;
+  background-image: linear-gradient(to top, #052272 0%, #0ece91 100%);
+  border-radius: 5px;
+  box-shadow: 2px 2px 40px 10px rgb(122, 6, 199);
+  padding: 15px;
+}
+
+#item {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px 1px rgb(83, 26, 3);
+  display: block;
+}
+
+#to-do-box {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#to-do-box li {
+  position: relative;
+  background-color: #ca0505;
+  color: white;
+  padding: 10px 20px;
+  padding-right: 25px;
+  margin-top: 15px;
+}
+
+#to-do-box li i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  user-select: none;
+}
+.done {
+  text-decoration: line-through;
+  color: back;
+  background-color: #031e29 !important;
+}
